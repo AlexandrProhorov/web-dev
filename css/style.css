@@ -1,0 +1,377 @@
+body
+{
+  margin: 0px;
+
+}
+
+.top-menu
+{
+    display: flex;
+    margin: auto 480px;
+    height: 50px;
+    width: 600px;
+}
+
+.top-menu__about-me-button
+{
+    display: inline-block;
+    background-color: white;
+    color: black;
+    padding: 15px 3px 20px 46px;
+    background-image: url(../img/top/aboutmeblack.png);
+    background-position: 22px 17px;
+    width: 90px;
+    height: 15px;
+    background-repeat: no-repeat;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-size: 19px;
+}
+  .top-menu__about-me-button:hover
+{
+    display:inline-block;
+    background-color:#1fad92;
+    color:white;
+    background-image: url(../img/top/aboutme.png);
+    background-position: 20px 20px;
+    width:90px;
+    height:15px;
+    background-repeat:no-repeat;
+    text-decoration: none;
+}
+
+.top-menu__hobby-button
+{
+    display: inline-block;
+    background-color: white;
+    color: black;
+    padding: 15px 2px 20px 46px;
+    background-image: url(../img/top/hobby.png);
+    background-position: 22px 17px;
+    width: 116px;
+    height: 15px;
+    background-repeat: no-repeat;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-size: 19px;
+}
+  .top-menu__hobby-button:hover
+{
+    display:inline-block;
+    background-color:#1fad92;
+    color:white;
+    background-image: url(../img/top/2.png);
+    background-position: 20px 20px;
+    width: 116px;
+    height: 15px;
+    background-repeat:no-repeat;
+    text-decoration: none;
+}
+
+.top-menu__film-button
+{
+    display: inline-block;
+    background-color: white;
+    color: black;
+    padding: 15px 2px 20px 44px;
+    background-image: url(../img/top/films.png);
+    background-position: 17px 18px;
+    width: 200px;
+    height: 15px;
+    background-repeat: no-repeat;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-size: 19px;
+}
+  .top-menu__film-button:hover
+{
+    display:inline-block;
+    background-color:#1fad92;
+    color:white;
+    background-image: url(../img/top/3.png);
+    background-position: 20px 20px;
+    width: 200px;
+    height: 15px;
+    background-repeat:no-repeat;
+    text-decoration: none;
+}
+
+
+.top-block
+{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.main
+{
+    background-image: url('../img/top/sea.png');
+    background-repeat: no-repeat;
+}
+
+.top-block__image_self
+{
+    margin: 201px 7px 0px 472px;
+}
+
+.top-block__text-quote
+{
+    position: relative;
+    color: white;
+    bottom: 0px;
+    font-size: 28px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    margin: 234px 525px 10px 13px;
+    line-height: 42px;
+}
+
+.top-block__text-quote::before
+{
+    content: url(../img/top/quotes.png);
+    position: absolute;
+    bottom: 98px;
+    opacity: .4;
+}
+
+.top-block__text-quote_autor
+{
+    color: white;
+    bottom: 10px;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 27px;
+    margin: 0px 0px 0px 3px;
+  
+}
+
+.main-block__autor
+{
+    position: relative;
+    font-size: 48px;
+    line-height: 42px;
+    color: #333333;
+    font-weight: 700;
+    font-family: "Open Sans";
+    margin: 85px 9px 0px 14px;
+}
+
+.main-block__autor::after
+{
+    position: absolute;
+    content: '';
+    width: 56px;
+    height: 5px;
+    background: #1fad92;
+    border-radius: 10px;
+    left: 0px;
+    top: 73px;
+}
+
+.aboutme-bottomline
+{
+    margin: 0px 0px 0px 472px;
+    height: 580px;
+    width: auto;
+}
+.aboutme-bottomline-lists
+{
+    float: left;
+    margin: 37px 0 0 8px;
+    height: auto;
+    width: 330px;
+}
+.aboutme-bottomline-lists__title
+{
+    margin: 0 0 13px 0;
+    font-size: 24px;
+    line-height: 32px;
+    color: #15a98c;
+    font-weight: 600;
+    font-family: "Open Sans";    
+}
+.aboutme-bottomline-lists__authors
+{
+    margin: 0 0 41px 21px;
+    padding: 0 0 0 0;
+    font-size: 19px;
+    line-height: 36px;
+    color: #555555;
+    font-family: "Georgia";    
+}
+.aboutme-bottomline-lists__films
+{
+    margin: 0px 0 41px 20px;
+    padding: 0 0 0 0;
+    font-size: 19px;
+    line-height: 36px;
+    color: #555555;
+    font-family: "Georgia";    
+}
+.aboutme-bottomline-text
+{
+    margin: 0px 0 0 397px;
+    height: auto;
+    width: 570px;
+}
+.aboutme-bottomline-text__aboutme
+{
+    margin: 0px 0 0 0px;
+    font-size: 19px;
+    line-height: 32px;
+    color: #555555;
+    font-family: "Georgia";    
+}
+.aboutme-bottomline-text__hobby
+{
+    margin: 42px 0 16px 0px;
+    font-size: 36px;
+    line-height: 42px;
+    color: #555555;
+    font-weight: 400;
+    font-family: "Open Sans";    
+}
+.aboutme-bottomline-text__hobby-text
+{
+    margin: 0px 0 0 0px;
+    font-size: 19px;
+    line-height: 32px;
+    color: #555555;
+    font-family: "Georgia";    
+    margin-bottom: 45px;
+}
+
+.aboutme-bottomline-link
+{
+    position: relative;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-size: 19px;
+    color: #15a98c;
+    text-decoration: none;
+}
+
+.aboutme-bottomline-link::after
+{
+    content: '→';
+    color: #15a98c;
+    
+}
+
+.aboutme-bottomline-link::before
+{
+    position: absolute;
+    content: '';
+    width: 117px;
+    height: 2px;
+    background: #1fad92;
+    border-radius: 10px;
+    left: 0px;
+    top: 20px;
+}
+
+.clear
+{
+    clear: both;
+}
+.films-list
+{
+    margin: 0px 0 0 0px;
+    background-color: #f9f9f9;
+    height: 1040px;
+    width: 100%;    
+}
+.movies-container
+{
+    padding: 6px 0 0 360px;
+    height: 975px;
+    width: 1200px;
+}
+.movies-container__header
+{
+    margin: 30px 0 33px 0;
+    font-size: 36px;
+    line-height: 42px;
+    color: #333333;
+    font-weight: 400;
+    font-family: "Open Sans";     
+}
+.movies
+{
+    display: flex;
+    justify-content: space-between;
+}
+.movies__img
+{
+    border-radius: 5px;
+    height: 190px;
+    width: 285px;
+}
+.movies__name
+{
+    margin: 23px 0 1px 0px;
+    width: 285px;
+    font-size: 22px;
+    line-height: 32px;
+    color: #333333;
+    font-weight: 700;
+    font-family: "Open Sans";
+}
+.movies__description
+{
+    width: 285px;
+    font-size: 16px;
+    line-height: 28px;
+    color: #555555;
+    font-family: "Georgia";    
+}
+.movies-button
+{
+    margin: 38px 0 0 480px;
+    display: flex;
+    justify-content: center;
+    align-content: center;   
+    height: 50px;
+    width: 220px;
+    background-color: #15a98c;
+    border-radius: 5px;
+}
+
+.movies-button__button
+{
+    padding: 14px 0 0 55px;
+    width: 220px;
+    height: 50px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 19px;
+    font-weight: 400;
+    color: #f5f5f5;
+    font-family: "Georgia";
+}
+
+.footer
+{
+    height: 70px;
+    width: 100%;
+    background-color: #f9f9f9;
+}
+.footer__text
+{
+    margin: 17px 0 0 592px;
+    font-size: 16px;
+    line-height: 32px;
+    color: #555555;
+    font-family: "Georgia";    
+}
+.films-lists
+{
+    background-color: #f9f9f9;
+    height: 1040px;
+    width: 100%;    
+}
