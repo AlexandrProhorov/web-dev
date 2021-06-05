@@ -33,7 +33,7 @@ function isElementsExpressionCorrect(elements) {
   isError = isError || (numberOfNumbers + numberOfOperators !== elements.length);
   isError = isError || (isNaN(elements[elements.length - 1]) || isNaN(elements[elements.length - 2]));
   isError = isError || (!isOperator(elements[0]));
-  return isError;
+  return !isError;
 }
 
 function calc(input) {
@@ -42,7 +42,7 @@ function calc(input) {
   const elements = expression.split(/\s+/g);
 
   console.log('Выражение: ' + expression);
-  if (!isElementsExpressionCorrect(elements)) {
+  if (isElementsExpressionCorrect(elements)) {
     let stack = [];
     let element;
     while (elements.length !== 0) {
